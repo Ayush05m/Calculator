@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(230, 201, 126);
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    /* max-width: max-content; */
+    width: 100%;
+}
+
+.b {
+    background: rgb(33, 231, 238);
+    border-radius: 30px;
+    font: 1.5vm bold;
+    height: 60px;
+    margin: 3px 5px;
+    padding: 8px;
+    width: 60px;
+}
+
+.b:hover {
+    background: rgb(174, 238, 240);
+    color: rgb(81, 2, 29);
+}
+
+.b:active{
+    background: rgb(4, 1, 57);
+    color: white;
+}
+
+.bopt {
+    margin-left: 45px;
+    background: rgb(4, 1, 57);
+    color: white;
+}
+
+.bopt:hover {
+    background: white;
+    color: rgb(0, 48, 108);
+}
+
+.cover {
+    /* border: 5px solid rgb(2, 93, 5); */
+    /* background: rgb(226, 229, 151); */
+    margin: 10px auto;
+    width: 40%;
+}
+
+.head {
+    font-size: 50px;
+    /* width: 90%; */
+    color: white;
+    /* background: rgb(117, 47, 128); */
+    margin: 10px auto;
+    /* margin-top: 20px; */
+    /* padding-left: 150px; */
+    text-align: center;
+}
+
+.items{
+    /* border: 2px solid red; */
+    font-size: 2vw;
+    /* margin: 10px; */
+    padding: 20px;
+    padding-left: 25px;
+}
+
+.items:hover{
+    background: rgb(49, 251, 140);
+}
+
+.list{
+    /* border: 2px solid red; */
+    display: flex;
+    list-style: none;
+    /* padding: 10px; */
+    margin: auto;
+}
+
+.num {
+    /* border: 3px solid #000; */
+    /* background: rgb(233, 116, 116); */
+    display: flex;
+    margin: 5px auto;
+    justify-content: center;
+    justify-items: center;
+    width: 80%
+}
+
+.navb {
+    background: rgb(156, 229, 191);
+    color: rgb(0, 0, 0);
+    display: flex;
+    font: 20px bold;
+    margin-bottom: 20px;
+}
+
+.operators {
+
+}
+
+.submit {
+
+}
+
+
+
+
+
+
+
+
+#numg1 {}
+
+#numg2 {}
+
+#numg3 {}
+
+#numg4 {}
+
+#inp {
+    border-radius: 8px;
+    font-size: 20px;
+    height: 48px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    transition-duration: 0.4s;
+    transition-property: all;
+    width: 65%;
+}
+
+#inp:hover{
+    border: 2px solid blue;
+    border-radius: 12px;
+    height: 48px;
+    font-size: 25px ;
+    transition-duration: 100ms;
+    transition-property: all;
+}
+
+#item4{
+    
+}
+
+#items4:hover{
+
+}
+
+#submit2 {
+    background: rgb(224, 123, 228);
+    border: 2.1px solid rgb(168, 3, 102);
+    border-radius: 8px;
+    display: flex;
+    font-size: 1.5vm;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 15px;
+    width: 50%;
+}
+
+#submit2:hover {
+    border: 3px solid rgb(0, 0, 0);
+    background: rgb(188, 142, 190);
+    word-wrap: normal;
+}

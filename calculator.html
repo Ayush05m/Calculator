@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype</title>
+    <link rel="stylesheet" href="stylecal.css">
+    <link rel="stylesheet" href="phone.css">
+</head>
+
+<body>
+    <!-- <header class="navb">CALCULATOR</header> -->
+    <nav class="navb">
+        <ul class="list">
+            <li class="items" id="item1"><a class="links" href="http://127.0.0.1:5500/">Home</a></li>
+            <li class="items" id="item2"><a class="links" href="http://127.0.0.1:5500/">Projects</a></li>
+            <li class="items" id="item3"><a class="links" href="">My Porfolio</a></li>
+            <li class="items" id="item4"><a class="links" href="">Contacts</a></li>
+        </ul>
+    </nav>
+    <header class="head">CALCULATOR</header>
+    <div class="cover">
+        <input type="text" class="num" id="inp" placeholder="Enter no.">
+        <div class="num" id="numg1">
+            <button id="b0" class="b" onclick="clicked(1)">1</button>
+            <button id="b1" class="b" onclick="clicked(2)">2</button>
+            <button id="b2" class="b" onclick="clicked(3)">3</button>
+            <button id="b11" class="b bopt" onclick="add()">+</button>
+        </div>
+
+        <div class="num" id="numg2">
+            <button id="b3" class="b" onclick="clicked(4)">4</button>
+            <button id="b4" class="b" onclick="clicked(5)">5</button>
+            <button id="b5" class="b" onclick="clicked(6)">6</button>
+            <button id="b12" class="b bopt" onclick="subs()">-</button>
+
+        </div>
+
+        <div class="num" id="numg3">
+            <button id="b6" class="b" onclick="clicked(7)">7</button>
+            <button id="b7" class="b" onclick="clicked(8)">8</button>
+            <button id="b8" class="b" onclick="clicked(9)">9</button>
+            <button id="b13" class="b bopt" onclick="mult()">*</button>
+        </div>
+
+        <div class="num" id="numg4">
+            <button id="b9" class="b" onclick="clicked(.)">.</button>
+            <button id="b9" class="b" onclick="clicked(0)">0</button>
+            <button id="b10" class="b" onclick="clicked(.)">.</button>
+            <button id="b14" class="b bopt" onclick="divi()">/</button>
+        </div>
+
+        <div class="submit" id="submit1">
+            <button class="submitit" id="submit2" onclick="solve()">SUBMIT</button>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+
+</body>
+
+</html>
